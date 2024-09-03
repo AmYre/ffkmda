@@ -6,7 +6,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZGV2b2x1dGlvbiIsImEiOiJjbTBtb3R0a2wwNTVlMmxzZ
 
 const MapGL = ({ clubs }) => {
 	const mapContainerRef = useRef(null);
-	const [location, setLocation] = useState({ latitude: 2.3, longitude: 48.8 });
+	const [location, setLocation] = useState({ latitude: 48.8, longitude: 2.3 });
 
 	useEffect(() => {
 		const map = new mapboxgl.Map({
